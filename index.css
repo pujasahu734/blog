@@ -1,0 +1,76 @@
+* html,
+
+/* dont do this */
+
+.blog {
+    background-color: rgb(253, 201, 201);
+}
+
+.box {
+    border: 20px solid rgb(253, 147, 147);
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(244, 92, 92);
+    border: none;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+}
+
+
+/* give class names and dont use tag name */
+
+a {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+a:hover {
+    color: rgb(244, 92, 92);
+    text-decoration: underline;
+    font-size: 110%;
+}
+
+h1,
+h2 {
+    color: rgb(73, 1, 1);
+}
+
+.date-container {
+    padding: 15px 0px 3px 10px;
+    display: block;
+    text-align: left;
+    font-size: 1.2em;
+    color: #731010;
+    font-family: sans-serif;
+}
+
+p {
+    color: rgb(95, 95, 95);
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+
+/* how about
+p {
+    padding: 0px 130px;
+    line-height: 1.5em;
+    color: rgb(95, 95, 95);
+    text-align: justify;
+    font-size: 1.4em;
+    font-family: cursive;
+} */
+
+.selected-menu-item {
+    color: red;
+}
