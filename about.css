@@ -1,25 +1,10 @@
-* html,
-.blog {
-    background-color: rgb(253, 201, 201);
-}
-
 .box {
-    border: 20px solid rgb(253, 147, 147);
     padding: 50px;
+    padding-bottom: 70px;
     position: relative;
     overflow: hidden;
     text-align: center;
-}
-
-button {
-    background-color: rgb(244, 92, 92);
-    border: none;
-    color: white;
-    padding: 8px 18px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 11px;
+    background-color: rgb(251, 234, 234);
 }
 
 a {
@@ -33,27 +18,78 @@ a:hover {
     font-size: 110%;
 }
 
-h1,
-h2 {
+h1 {
     color: rgb(73, 1, 1);
-}
-
-.date-container {
-    padding: 15px 0px 3px 10px;
-    display: block;
-    text-align: left;
-    font-size: 1.2em;
-    color: #731010;
-    font-family: sans-serif;
+    padding: 15px 0px;
+    font-size: 2.8em;
 }
 
 p {
     color: rgb(95, 95, 95);
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-family: sans-serif;
 }
 
 .selected-menu-item {
     color: red;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 2em;
+    color: rgb(73, 1, 1);
+}
+
+.dedicated-team {
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(241, 203, 154);
+    margin: 0px;
+}
+
+.row {
+    padding: 50px;
+    display: flex;
+}
+
+.mem-col {
+    width: 33.33%;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 30%;
+    background-color: rgb(244, 92, 92);
+    margin-top: -50px;
+}
+
+.person {
+    margin: 0 50px;
+    border: 5px solid coral;
+}
+
+.mem-info-name,
+.mem-info-designation,
+.mem-info-place {
+    display: block;
+}
+
+.mem-info-name {
+    font-weight: bold;
+}
+
+.mem-info-designation {
+    font-style: oblique;
+}
+
+.mem-info-place {
+    font-style: italic;
+}
+
+.mem-info {
+    padding: 20px;
 }
