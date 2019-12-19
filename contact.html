@@ -10,8 +10,7 @@
 </head>
 
 <body>
-    <!-- this will contain contact of the blogger and 
-    screen shot of the google maps image -->
+
     <header>
         <nav>
             <ul>
@@ -23,22 +22,43 @@
         </nav>
     </header>
 
-    <div class="blog">
-        <div class="box">
-            <span class="date-container">13/03/1993 Sunday 10:10</span>
-            <h1>Pet Life</h1>
-            <h2>Heart Like A Dog</h2>
-            <p>
-                This blog aims at helping people to better understand their dogs. It features dog food reviews, brand prices and comparisons. In addition, you’ll find many articles about well-being and dog health. The site is easy to navigate with many cuddly photos.
-                MyDogLikes is a blog run by two self-professed dog lovers who aim both to improve the lives of their own dogs and share the lessons they’ve learned and the experiences they’ve had with a community of dog lovers. The blog offers reviews
-                of products, dog-friendly travel guides, and tips for proper dog care, as well as adorable pictures of Harley and Charlie–the dogs owned by the two writers. For those who want “to live life to the fullest with your furry companion by your
-                side”, the blog Dog or Nothing brings reviews and giveaways of pet items while also providing tips to help owners make the world more dog-friendly. Kelsie McKenzie, the writer, owns two large dogs but strives to make her posts accessible
-                to owners of dogs of all sizes.
-            </p>
-            <button type="button">View</button>
-            <button type="button">Comments</button>
-        </div>
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="emailid">Email-Id</label>
+        <input type="email" id="emailid" name="Email-Id" placeholder="Your Email-Id..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input class="btn-small-green" type="button" value="Submit">
+    </div>
+
+
+    <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=lumbini%20gardens%20bengaluru&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div>
+        <style>
+            .mapouter {
+                position: relative;
+                text-align: right;
+                height: 500px;
+                width: 800px;
+            }
+            
+            .gmap_canvas {
+                overflow: hidden;
+                background: none!important;
+                height: 500px;
+                width: 800px;
+            }
+        </style>
     </div>
 </body>
+
 
 </html>

@@ -10,26 +10,23 @@
     text-align: center;
 }
 
-button {
+.comment-btn {
     background-color: rgb(244, 92, 92);
     border: none;
     color: white;
-    padding: 8px 18px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 11px;
+    font-size: 14px;
 }
 
-
-/* give class names and dont use tag name */
-
-a {
+.menu-item {
     line-height: 20px;
     font-size: 14px;
 }
 
-a:hover {
+.menu-item:hover {
     color: rgb(244, 92, 92);
     text-decoration: underline;
     font-size: 110%;
@@ -55,17 +52,6 @@ p {
     font-size: 1.2em;
     font-family: sans-serif;
 }
-
-
-/* how about
-p {
-    padding: 0px 130px;
-    line-height: 1.5em;
-    color: rgb(95, 95, 95);
-    text-align: justify;
-    font-size: 1.4em;
-    font-family: cursive;
-} */
 
 .selected-menu-item {
     color: red;
